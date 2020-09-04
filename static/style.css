@@ -1,0 +1,175 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	color: #a9a9a9;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-image: url('../images/blue_background.png');
+	background-size: cover; 
+
+}
+
+#main-header {
+	background-color: #0f4b81;
+	opacity: .8;
+	position: sticky;
+	top: 0px;
+	text-align: left;
+}
+
+#main-header img {
+	height: 80px;
+	width: auto;
+	margin: 0px 10px 0px 20px;
+
+}
+
+#main-header h1 {
+	padding: 20px 5px;
+	color: #dfdfdf;
+	display: inline-block;
+}
+
+#filter {
+	float: right;
+	width: calc(100% - 1000px);
+	min-width: 100px;
+	border-style: none;
+	border-radius: 5px;
+	margin: 30px 50px;
+	padding: 13px 5px;
+}
+
+footer {
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	color: #dfdfdf;
+	background-color: #0f4b81;
+	opacity: .8;
+}
+
+footer h3 {
+	float: right;
+	font-size: 14px;
+	padding: 10px 5px;
+}
+
+.container {
+	position: relative;
+	width: 60%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+h2 {
+	padding-top: 10px;
+	color: #cfcfcf;
+}
+
+li {
+	font-family: 'Gloria Hallelujah', sans-serif;
+	font-size: 18px;
+	list-style: none;
+	padding: 6px 0px 3px 40px;
+	color: #0f4b81;
+}
+
+
+li:nth-child(odd) {
+	background-color: #ffff99;
+}
+
+li:nth-child(even) {
+	background-color: #ffffc7;
+}
+
+.invisible {
+	opacity: 0.4;
+}
+
+#newItem {
+	margin: 0px 3px;
+	font-size: 16px;
+	padding: 10px 5px;
+	width: calc(100% - 115px);
+	height: 16px;
+}
+
+#addButton {
+	position: absolute;
+	right: 2px;
+	border-style: none;
+	border-radius: 4px;
+	height: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #dfdfdf;
+	background-color: #0f4b81;
+	padding: 10px 30px;	
+	cursor: pointer;
+}
+
+#addButton:hover {
+	background-color: #3f7bb1;
+}
+
+#status {
+	position: absolute;
+	left: 10px;
+	height: 16px;
+	width: 16px;
+	border-style: none;
+	border-radius: 50%;
+	font-size: .8em;
+	margin-top: 10px;
+	padding: 0px;	
+	color: #ffffff;
+	background-color: #0000bf;
+	cursor: pointer;
+}
+
+#status:hover {
+	background-color: #5050ff;
+}
+
+#delete-item {
+	position: absolute;
+	right: 12px;
+	font-size: 0.7em;
+	text-transform: uppercase;
+	padding: 2px 10px;
+	color: #ffffff;
+	background-color: #bf0000;
+	border-style: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#delete-item:hover {
+	background-color: #ff5050;
+}
+
+.linkButton {
+	float:right;
+	margin: 30px 20px 0px 0px;
+	border-style: solid;
+	border-color: #3f7bb1;
+	border-width: 1px;
+	border-radius: 4px;
+	height: 40px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #dfdfdf;
+	background-color: #0f4b61;
+	padding: 10px 30px;	
+	cursor: pointer;
+}
+
+.linkButton:hover {
+	background-color: #3f7bb1;
+}
